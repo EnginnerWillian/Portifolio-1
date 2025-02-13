@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    menu {
+      color: rgb(222, 4, 41);
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    menu a {
+      display: block;
+      padding: 10px;
+    }
+  }
+  
