@@ -10,4 +10,9 @@
       padding: 10px;
     }
   }
-  
+  @media (max-width: 768px) { /* Example breakpoint */
+    #img img {
+        width: 75px;
+        height: 75px;
+    }
+}
