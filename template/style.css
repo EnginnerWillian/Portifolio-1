@@ -72,6 +72,7 @@ h1 {
     margin-left: 200px;
     width: 80%;
     padding: 10px;
+    box-shadow: 5px 5px #0202022b;
 }
 .conteudo {
     display: flex;
@@ -97,7 +98,18 @@ img {
     animation: float 3s ease-in-out infinite;
 }
 
+@keyframes float {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-15px);}
+    100% {transform: translateY(0px);}
+}
+
 #img-contato {
+   
+}
+footer > #img-contato {
+    display:  flex;
+    flex-direction: row;
     justify-content: center;
     gap: 15px; /* Espaço entre os ícones */
     margin-top: 15px;
@@ -105,10 +117,15 @@ img {
     position: relative;
 
 }
-
-
-@keyframes float {
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(-15px);}
-    100% {transform: translateY(0px);}
+footer {
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os ícones */
+    margin-top: 15px;
+    text-align: center; /* Centraliza a imagem e os ícones */
+    position: relative;
+    background-color: #020202;
+    
 }
+
