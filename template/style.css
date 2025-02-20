@@ -1,11 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Rouge+Script&display=swap');
 
  * { 
     margin: 0;
     padding: 0;
-
  }
+html, body {
+    height: 100%;
+}
 
 body {
     background-color: #f5f8faf0;
@@ -20,7 +21,6 @@ div {
     margin: auto;
     top: 0;
     max-width: 100%;
-    font-family: "Rouge Script", serif;
     font-size: 1.5em;
     font-weight: bolder;
     font-style: italic;
@@ -29,7 +29,9 @@ div {
     position: fixed;
     display: flex;
     background-color: #020202;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 5px 5px 5px #808080d3;
+
     text-align: center;
 
 }
@@ -63,22 +65,26 @@ h1 {
 }
 
 #sobre-mim {
-    display: flex;
-    flex-direction: row; /* Alinha elementos lado a lado */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: space-between; /* Ajusta o espaço entre o texto e a imagem */
     margin: auto;
     margin-top: 120px;
     margin-left: 200px;
     width: 80%;
     padding: 10px;
-    box-shadow: 5px 5px #0202022b;
+    display: flex;
+    flex-direction: row; /* Alinha elementos lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Ajusta o espaço entre o texto e a imagem */
+    
 }
 .conteudo {
+    margin: auto;
     display: flex;
     align-items: center;
+    font-style: italic;
     justify-content: space-between;
     gap: 20px;
+    box-shadow: 5px 5px 5px #808080d3;
+
 }
 p {
     flex: 1;
@@ -91,10 +97,13 @@ img {
 }
 
 #img > img {
-    width: 250px;
-    height: 280px;
+    margin: auto;
+    width: 230px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 5px 5px 5px #808080d3;
+    transition: opacity 0.3s ease-in-out;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -103,29 +112,30 @@ img {
     50% {transform: translateY(-15px);}
     100% {transform: translateY(0px);}
 }
-
-#img-contato {
-   
-}
 footer > #img-contato {
+    margin-top: 15px;
     display:  flex;
     flex-direction: row;
     justify-content: center;
     gap: 15px; /* Espaço entre os ícones */
-    margin-top: 15px;
     text-align: center; /* Centraliza a imagem e os ícones */
     position: relative;
 
 }
 footer {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200px;
+    padding: 15px 0;
+    bottom: 0px;
     display:  flex;
     flex-direction: row;
     justify-content: center;
     gap: 15px; /* Espaço entre os ícones */
-    margin-top: 15px;
     text-align: center; /* Centraliza a imagem e os ícones */
-    position: relative;
+    position: fixed;
     background-color: #020202;
-    
+    box-shadow: 5px 5px 5px #808080d3;
 }
 
