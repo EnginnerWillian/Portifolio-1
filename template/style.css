@@ -66,9 +66,10 @@ a {
 
 h1 {
     margin: auto;
+    margin-top:0px ;
     margin-bottom: 600px; /* Adiciona um espaço entre o título e o texto */
     padding: 10px;
-    display: inline-flex;
+    display: flex;
     text-align: center;
     font-size: 5em;
     font-weight: bolder;
@@ -92,6 +93,7 @@ h1 {
 }
 .conteudo {
     margin: auto;
+    margin-bottom: 300px;
     display: flex;
     align-items: center;
     font-style: italic;
@@ -145,7 +147,7 @@ footer {
     margin-top: auto;
     margin-bottom: 0px;
     width: 100%;
-    height: 200px;
+    height: auto;
     padding: 15px 0;
     bottom: 0px;
     display:  flex;
@@ -157,4 +159,14 @@ footer {
     background-color: #020202;
     box-shadow: 5px 5px 5px #808080d3;
 }
+#img-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espasamento entre as imagens */
+}
 
+#img-contato img{
+    width: 40px;
+    height: auto;
+}
