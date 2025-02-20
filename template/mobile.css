@@ -16,3 +16,10 @@
         height: 75px;
     }
 }
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
