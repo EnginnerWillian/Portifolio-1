@@ -127,6 +127,18 @@ img {
     transition: opacity 0.3s ease-in-out;
     animation: float 3s ease-in-out infinite;
 }
+#certificados-h1 {
+    margin: auto;
+    color: #080808;
+    text-align: center;
+    align-items: center;
+    gap: 15px; /* Espaço entre os ícones */
+}
+#certificados img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #808080d3;
+
+}
 
 @keyframes float {
     0% {transform: translateY(0px);}
@@ -141,13 +153,11 @@ footer > #img-contato {
     gap: 15px; /* Espaço entre os ícones */
     text-align: center; /* Centraliza a imagem e os ícones */
     position: relative;
-
 }
 footer {
     margin-top: auto;
     margin-bottom: 0px;
     width: 100%;
-    height: auto;
     padding: 15px 0;
     bottom: 0px;
     display:  flex;
