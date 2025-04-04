@@ -2,7 +2,6 @@
 
 /* Reset de estilos */
 * { 
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -23,7 +22,7 @@ html, body {
 }
 body {
     color: #f0f8ff;
-    background-color: #080808;
+    background-color: #0e1728;
     background-size: cover;
     background-position: 100% ;
     background-repeat: no-repeat;
@@ -78,8 +77,8 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
+    margin-top: 150px;
     width: 80%;
-    margin: 120px auto 300px;
     padding: 20px;
     font-size: 1.5em;
     display: block;
@@ -94,7 +93,6 @@ h1 {
     top: 0;
     margin: auto;
     font-weight: bold;
-    font-style: italic;
     text-align: left;
     padding: 10px;
     
@@ -114,7 +112,9 @@ h1 {
     gap: 20px;
 }
 
-.conteudo > p {
+.conteudo> p {
+    width: 70%;
+    display: flex;
     float: left;
 }
 
@@ -125,6 +125,7 @@ h1 {
     height: 230px;
     padding: 10px;
     border-radius: 50%;
+    border: 5px solid ;
     display: flex;
     object-fit: cover;
     box-shadow: 5px 5px 5px #808080d3;
@@ -138,12 +139,11 @@ h1 {
     height: 150px;
     padding: 10px;
     border-radius: 0;
-    display: flex;
+    display: inline;
     float: left;
     animation: none
 }
 #github50 > img{
-
     margin: auto;
     width: 150px;
     height: 150px;
@@ -152,8 +152,44 @@ h1 {
     display: flex;
     animation: none
 }
-.teste {
-    display:block;
-    border: 5px solid #f0f8ff;
+hr {
+    margin-top: 0;
+    width: 100%;
+    box-shadow: 5px 5px 5px #9ec5e7;
+}
+#hard-skill {
+    background-color: #0e1728;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 5px 0px 5px solid #f0f8ff;
     border-radius: 10px;
+    box-shadow: 2px 2px 3px #bed9f1c8;
+}
+#hard-skill > h1 {
+    margin: auto;
+    margin-bottom:0;
+    padding: 10px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    
+#conteudo1 > p {
+    margin-top: 0;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+}
+.certificados {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+    display: inline-block;
 }
