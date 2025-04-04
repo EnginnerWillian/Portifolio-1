@@ -10,3 +10,17 @@ window.addEventListener("scroll", function() {
         img.classList.remove("hidden");
     }
 });
+
+
+var getOderTotal = function (customer, lineItems, discountCode) {
+    var discountCodeTotal = 0;
+    var lineItemsTotal = 0;
+    var shippingTotal = 0;
+    var texTotal = 0;
+
+    for (var i = 0; i < lineItems.length; i++) {
+        var lineItems = line[i];
+        lineItemsTotal += lineItems.price * lineItem
+    }
+
+}

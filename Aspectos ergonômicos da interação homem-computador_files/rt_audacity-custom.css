@@ -1,0 +1,32 @@
+.menu-block .gf-menu .item957 {display: none;}
+.menu-block .gf-menu .dropdown .menu-item-wrapper {color:#EAEAEA; !important}
+.menu-block .gf-menu .dropdown li:hover > .item .menu-item-wrapper {color:#fff; !important}
+.menu-block .gf-menu.l1 > li > .item .menu-item-wrapper {color:#EAEAEA; !important}
+
+body.font-family-audacity {font-family: Arial;}
+.breadcrumb .active {color: #121212;}
+.sprocket-accordion-content .readon{
+	display: none !important;
+}
+.ohs_org .sprocket-tabs-nav {display: none !important;}
+
+.box5 .name {
+	color: #fff !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 19px !important;
+	font-weight: normal !important;
+	line-height: 19px !important;
+}
+
+.box5 .title {
+	color: #fff !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 19px !important;
+	font-weight: normal !important;
+	line-height: 19px !important;
+}
+
+.box5 .dj-submenu {
+	background: #383838;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#383838),color-stop(1,#383838));
+}
