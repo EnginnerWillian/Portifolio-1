@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Reset de estilos */
-* { 
+* {
     padding: 0;
     box-sizing: border-box;
 }
@@ -75,7 +75,7 @@ a:hover {
 /* Seção Sobre Mim */
 #sobre-mim {
     color: #080808;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-color: #F6F5F7;
     margin: auto;
@@ -134,34 +134,12 @@ h1 {
     animation: float 3s ease-in-out infinite;
 }
 
-#linkedin  {
-    margin: auto;
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 0;
-    display: inline;
-    float: left;
-    animation: none
-}
-#github50 > img{
-    margin: auto;
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 0;
-    display: flex;
-    animation: none
-}
-.hr {
-    margin-top: 0;
-    width: 100%;
-    box-shadow: 5px 5px 5px #8a8b8c;
-}
 #hard-skill {
-    margin: auto 100px;
+    margin: auto;
+    margin-top: 80px;
     max-width: 100%;
     padding: 20px;
+    background-color: #080808;
     font-size: 1.5em;
     display: inline;
     float: left;
@@ -179,6 +157,41 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+#projetos {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.projeto {
+
+    margin: 20px;
+    max-width: 320px;
+    max-height: 320px;
+    padding: 10px;
+    background-color: #f0f8ff6a;
+    border-radius: 10px;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+.projeto > img {
+    margin: auto;
+    max-width: 220px;
+    max-height: 420px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.projeto:hover {
+    max-width: 360px;
+    max-height:380px ;
+    box-shadow: 5px 5px 5px #f9fafaf7;
+    
 }
     
 #conteudo1 > p {
