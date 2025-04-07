@@ -21,11 +21,11 @@ html, body {
     color: #080808;
 }
 body {
-    color: #f0f8ff;
-    background-color: #0e1728;
+    color: #080808;
+    background-color:#ffffff;
     background-size: cover;
     background-position: 100% ;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 div {
     width: 100%;
@@ -39,7 +39,7 @@ div {
     width: 100%;
     margin-bottom: 150px;
     padding: 10px 0;
-    background-color: #020202;
+    background-color: #080808;
     color: #f0f8ff;
     font-size: 1.5em;
     font-weight: bold;
@@ -73,9 +73,10 @@ a:hover {
 
 /* Seção Sobre Mim */
 #sobre-mim {
-    background-image: url(../images/My_images/175279-memorial_68-plaza_de_las_tres_culturas-graphic_#design-art-triangle-3840x2160.jpeg);
+    color: #080808;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #F6F5F7;
     margin: auto;
     margin-top: 150px;
     width: 80%;
@@ -84,15 +85,15 @@ a:hover {
     display: block;
     align-items: center;
     justify-content: center;
-    border: 5px solid #f0f8ff;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px #bed9f1c8;
+    box-shadow: 2px 2px 3px #616161;
 }
 
 h1 {
     top: 0;
     margin: auto;
     font-weight: bold;
+    font-style:italic ;
     text-align: left;
     padding: 10px;
     
@@ -106,7 +107,6 @@ h1 {
     position: relative;
     float: right;
     display: contents;
-    font-style: italic;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -152,28 +152,29 @@ h1 {
     display: flex;
     animation: none
 }
-hr {
+.hr {
     margin-top: 0;
     width: 100%;
-    box-shadow: 5px 5px 5px #9ec5e7;
+    box-shadow: 5px 5px 5px #8a8b8c;
 }
 #hard-skill {
-    background-color: #0e1728;
+    background-color: #F6F5F7;
     background-repeat: no-repeat;
     margin: auto;
     width: 100%;
     padding: 20px;
     font-size: 1.5em;
-    display: block;
+    display: inline;
+    float: left;
     align-items: center;
     justify-content: center;
     border: 5px 0px 5px solid #f0f8ff;
-    border-radius: 10px;
     box-shadow: 2px 2px 3px #bed9f1c8;
 }
 #hard-skill > h1 {
     margin: auto;
     margin-bottom:0;
+    max-width:100% ;
     padding: 10px;
     padding-bottom: 0px;
     justify-content: center;
@@ -187,9 +188,12 @@ hr {
     font-weight: bold;
     display: block;
 }
-.certificados {
-    max-width: 150px;
-    max-height: 150px;
+#hard-skill > .certificados {
+    background-color: #f0f8ff;
+    max-width: 920px;
+    max-height: 920px;
     padding: 10px;
-    display: inline-block;
+    display: flex;
+    float: left;
 }
+
