@@ -39,7 +39,6 @@ div {
 #fundo {
     background-image: url(../images/My_images/74e60e2c6556596b18261f7ad39dbd7e.jpeg);
     color: #080808;
-    background-color:#ffffff;
     background-size: cover;
     background-position: fixed ;
     background-position-y: center   ;
@@ -48,21 +47,29 @@ div {
 
 /* Menu de navegação */
 #menu {
-    position: fixed;
+    color: #F6F5F7;
     top: 0;
     left: 0;
+    position: fixed;
     width: 100%;
-    margin-bottom: 150px;
+    max-height: 100px;
     padding: 10px 0;
-    background-color: #080808;
-    color: #f0f8ff;
+    background-color: #0808082b;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    box-shadow: 5px 5px 5px #808080d3;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#menu > {
+    background-size: cover;
+    background-position: left;
+    max-width: 80px;
+    max-width: 80px;
+    border: 10px;
+    border-radius: 50%;
 }
 
 ul {
@@ -100,15 +107,17 @@ a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px #616161;
+    box-shadow: 0px 2px 0px #bed9f1c8;
     transform: translateY(90px);
     animation: fadeInUp 0.8s ease forwards;
     animation-delay: 0.5s;
 }
 
 h1 {
+
     top: 0;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style:italic ;
     text-align: left;
@@ -122,7 +131,6 @@ h1 {
     margin: auto;
     max-width: 80%;
     padding: 20px;
-    background-color: #f0f8ff;
     position: relative;
     float: right;
     display: contents;
@@ -141,7 +149,9 @@ h1 {
     display: flex;
     float: left;
 }
-
+.hard {
+    background-color: #080808;
+}
 /* Imagem de perfil */
 #img > img{
     color: #080808;
@@ -176,11 +186,14 @@ h1 {
 }
 
 #hard-skill {
-    background-image: url(../images/gifs/July\ -\ December\ 2021\ -\ bleuje\ _\ gif\ animations.gif);
+    background-image: url(../images/gifs/Image\ result\ for\ aesthetic\ gifs\ minimalist.gif);
+    background-position: right;
+    background-size: cover;
+    background-position: left 100px;
     color: #F6F5F7;
     background-position: center;
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 1.5em;
@@ -189,10 +202,9 @@ h1 {
     align-items: center;
     justify-content: center;
     border: 5px 0px 5px solid #f0f8ff;
-    box-shadow: 2px 2px 3px #bed9f1c8;
+    box-shadow: 0px 2px 0px #bed9f1c8;
 }
 #hard-skill > h1 {
-    margin-bottom:0;
     max-width:100% ;
     padding: 10px;
     padding-bottom: 0px;
@@ -219,7 +231,6 @@ h1 {
     margin: auto;
     max-height: 900px;
     padding: 10px;
-    background-color: #F6F5F7;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -252,7 +263,7 @@ h1 {
 .projeto:hover {
     max-width: 360px;
     max-height:380px ;
-    box-shadow: 5px 5px 5px #f9fafaf7;
+    box-shadow: 0px 5px 5px #f9fafaf7;
 }
     
 #conteudo1 > p {
