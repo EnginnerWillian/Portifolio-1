@@ -37,7 +37,7 @@ div {
     width: 100%;
 }
 #fundo {
-    background-image: url(../images/My_images/74e60e2c6556596b18261f7ad39dbd7e.jpeg);
+    background-image: url(../images/Projeto1/«IA_\ Transformación\ Empresarial\ y\ Retos\ en\ su\ Adopción».jpeg);
     color: #080808;
     background-size: cover;
     background-position: fixed ;
@@ -61,6 +61,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 }
 
 #menu > {
@@ -68,7 +69,6 @@ div {
     background-position: left;
     max-width: 80px;
     max-width: 80px;
-    border: 10px;
     border-radius: 50%;
 }
 
@@ -97,7 +97,7 @@ a:hover {
     color: #080808;
     background-size:cover;
     background-repeat: no-repeat;
-    background-color: #F6F5F7;
+    background-color: #f6f5f791;
     margin: auto;
     margin-top: 150px;
     width: 80%;
@@ -114,7 +114,6 @@ a:hover {
 }
 
 h1 {
-
     top: 0;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -168,6 +167,11 @@ h1 {
     transform: translateX(40px);
     animation: fadeInUp 0.5s ease forwards;
     animation-delay: 1.5s;
+
+}
+
+.hardskill {
+    background-color: #f6f5f77c;
 
 }
 .contato {
@@ -278,5 +282,8 @@ h1 {
     padding: 10px;
     display: flex;
     float: left;
+}
+.certificados > h2 {
+    z-index: 4;
 }
 
